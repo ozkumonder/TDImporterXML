@@ -1,0 +1,64 @@
+11.07.2017 00:32:42 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19284 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:34:01 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:36:56 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:37:05 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 356 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:37:07 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19285 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:37:48 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:37:57 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 454 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:37:58 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19286 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:37:58 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:38:14 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 454 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:38:15 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19287 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:44:17 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:44:28 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 153 | Gelen SALES_INVOICES Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:44:31 | <Bellek Modülünde> | CallSite.Target |  | 0 | 48275 Referanslı Gelen SALES_INVOICES Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:44:32 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:44:37 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 251 | Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:44:37 | <Bellek Modülünde> | CallSite.Target |  | 0 | 6788 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:44:37 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:44:42 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 356 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:44:42 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19288 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:44:43 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:44:47 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 454 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:44:47 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19289 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:44:49 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:44:55 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 356 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:44:55 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19290 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:54:46 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:55:14 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 152 | Gelen SALES_INVOICES Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:55:30 | <Bellek Modülünde> | CallSite.Target |  | 0 | 48276 Referanslı Gelen SALES_INVOICES Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:56:20 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:56:38 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 250 | Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:56:54 | <Bellek Modülünde> | CallSite.Target |  | 0 | 6789 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 00:57:35 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 00:57:59 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 355 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 00:58:14 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19291 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 01:00:09 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 01:00:35 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 453 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 01:01:09 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19292 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 01:07:12 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 52 | Start Execute Method
+11.07.2017 01:07:45 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 355 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 01:08:22 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19293 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 11:46:10 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 12:11:07 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 12:23:44 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 12:27:11 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 12:36:20 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 13:25:31 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 14:35:35 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 14:40:33 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 14:41:21 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 14:41:25 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 153 | Gelen SALES_INVOICES Logoya Aktarılmaya Çalışılıyor
+11.07.2017 14:41:46 | <Bellek Modülünde> | CallSite.Target |  | 0 | 48239 Referanslı Gelen SALES_INVOICES Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 16:21:44 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 16:21:48 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 258 | Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 16:21:49 | <Bellek Modülünde> | CallSite.Target |  | 0 | 6742 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 16:24:44 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 16:24:48 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 363 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 16:24:53 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19260 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:25:36 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 121 |  : 109 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:28:32 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:28:45 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 470 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:28:51 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19261 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:29:17 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:29:20 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 470 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor

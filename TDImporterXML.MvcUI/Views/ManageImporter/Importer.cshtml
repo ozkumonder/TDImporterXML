@@ -1,0 +1,188 @@
+﻿@using System.Collections
+@model TDImporterXML.MvcUI.ViewModel.ImporterViewModel
+@{
+    ViewBag.Title = "Importer";
+    int counter = 0;
+}
+<div class="page-header page-header-default">
+    <div class="page-header-content">
+        <div class="page-title">
+            <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Üretim Ekranı</span></h4>
+            @*<div class="heading-elements">
+                    <div class="btn-group heading-btn">
+                        @using (Html.BeginForm("ExportData", "Home", FormMethod.Post, new { onsubmit = "validateForm()" }))
+                        {
+                            <button type="submit" class="btn bg-teal-400 btn-labeled legitRipple"><b><i class="icon-file-excel"></i></b>Excel'e Aktar</button>
+                        }
+                    </div>
+                </div>*@
+        </div>
+    </div>
+</div>
+<!-- /page header -->
+
+<div class="content">
+
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+
+                @using (Html.BeginForm("Importer", "ManageImporter", FormMethod.Post, new { onsubmit = "validateForm()" }))
+                {
+                    <div class="col-md-2">
+                        <!-- Simulate selections -->
+                        <div class="content-group-lg">
+                            <div class="multi-select-full">
+                                @*@Html.DropDownListFor(model => model.CapiDiv.CAPIDIV_NR, new SelectList(ViewData["branchs"] as IEnumerable, "CAPIDIV_NR", "CAPIDIV_NAME"), new { @class = "multiselect-select-all", @multiple = "multiple", @id = "sube" })*@
+                                @Html.ListBoxFor(m => m.CapiDivNr, new SelectList(ViewData["branchs"] as IEnumerable, "LogoBranchNr", "BranchName"), new { @class = "multiselect-select-all", @multiple = "multiple", @id = "sube" })
+                            </div>
+                        </div>
+                        <!-- /simulate selections -->
+                    </div>
+                    <div class="col-md-2">
+                        <!-- Simulate selections -->
+                        <div class="content-group-lg">
+                            <div class="multi-select-full">
+                                @*@Html.DropDownListFor(model => model.CapiDiv.CAPIDIV_NR, new SelectList(ViewData["branchs"] as IEnumerable, "CAPIDIV_NR", "CAPIDIV_NAME"), new { @class = "multiselect-select-all", @multiple = "multiple", @id = "sube" })*@
+                                @Html.ListBoxFor(m => m.DataType, new SelectList(ViewData["types"] as IEnumerable, "DataTypeId", "DataTypeName"), new {placehokder="Belge Tipi", @class = "multiselect-select-all", @multiple = "multiple", @id = "belge" })
+                            </div>
+                        </div>
+                        <!-- /simulate selections -->
+                    </div>
+                    <div class="col-md-3">
+                        <div class="content-group-lg">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="icon-calendar5"></i></span>
+                                <input id="date" name="startDate" type="text" class="form-control pickadate-editable" placeholder="Başlangıç Tarihi Seçiniz;" required="required">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="content-group-lg">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="icon-calendar5"></i></span>
+                                <input id="dateend" name="endDate" type="text" class="form-control pickadate-editable" placeholder="Bitiş Tarihi Seçiniz;" required="required">
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 150px;float: left">
+                        <div class="input-group">
+                            <button id="Getir" type="submit" class="btn bg-teal-400 btn-labeled legitRipple"><b><i class="icon-reading"></i></b> Veri Getir</button>
+                        </div>
+                    </div>
+                }
+
+                @*@using (Html.BeginForm("Importer", "ManageImporter", FormMethod.Post, new { onsubmit = "validateForm()" }))
+                {
+
+                    <div style="width: 105px;float: left">
+                        <div class="input-group">
+                            <button id="Uret" type="submit" class="btn bg-teal-400 btn-labeled legitRipple"><b><i class="icon-stack-plus"></i></b> Üret</button>
+                        </div>
+
+                    </div>
+                }*@
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Highlighting rows and columns -->
+    @*<div class="panel panel-flat">
+
+        <table class="table datatable-button-html5-columns-importer" id="list">
+            <thead>
+            <tr>
+                <th>Sıra</th>
+                <th>Şube</th>
+                <th>Tarih</th>
+                <th>İndirim</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tbody>
+
+
+            @if (Model != null)
+            {
+                foreach (var item in Model.SalesDispatchesDispatchs)
+                {
+                    counter++;
+                    <tr>
+                        <td width="20">@counter</td>
+                        <td>@item.MASTER_CODE</td>
+                        <td>@item.MASTER_CODE</td>
+                        <td>@item.MASTER_CODE</td>
+                        <td>@item.MASTER_CODE</td>
+
+                    </tr>
+                }
+            }
+
+
+
+
+            </tbody>
+        </table>
+    </div>*@
+    <!-- /highlighting rows and columns -->
+
+</div>
+<script type="text/javascript">
+    $("#Getir").click(function () {
+        //var sube = $("#Sube").val();
+        var date = $("#date").val();
+        @*if (sube != null && date != null) {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("Index")',
+
+                success: function (result) {
+                    debugger
+                    var path = "/Index";
+                    var dt = $('#list').DataTable();
+                    dt.clear();
+                    dt.draw();
+                    dt.ajax.url(path).load();
+
+                },
+                error: function () { alert("error"); }
+            });
+
+
+        }*@
+
+        if (date != "") {
+            $('#divLoading').show();
+        }
+    });
+    $("#Uret").click(function () {
+        $('#divLoadingProduction').show();
+
+    });
+
+</script>
+
+<div id="divLoading" style="margin: auto; padding: 0px; position: fixed; right: 0px;
+                                                                                                                                                                          top: 0px; width: 100%; height: 100%; background-color: #666666; z-index: 30001;
+                                                                                                                                                                          opacity: .8; filter: alpha(opacity=70); display: none">
+    <p style="position: absolute; top: 50%; left: 35%; color: White;">
+        Veriler getiriliyor, lütfen beyleyiniz...<img src="~/Content/assets/images/gears.gif">
+    </p>
+</div>
+<div id="divLoadingProduction" style="margin: auto; padding: 0px; position: fixed; right: 0px;
+                                                                                                                                                                                                                                                                                                                                                                      top: 0px; width: 100%; height: 100%; background-color: #666666; z-index: 30001;
+                                                                                                                                                                                                                                                                                                                                                                      opacity: .8; filter: alpha(opacity=70);display:none">
+    <p style="position: absolute; top: 50%; left:35%; color: White;">
+        Üretimler oluşturuluyor, lütfen beyleyiniz...<img src="~/Content/assets/images/gears.gif">
+    </p>
+</div>

@@ -1,0 +1,133 @@
+﻿@model TDImporterXML.MvcUI.ViewModel.FirmsViewModel
+@{
+    ViewBag.Title = "Firms";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int counter = 0;
+}
+
+<div class="page-header page-header-default">
+    <div class="page-header-content">
+        <div class="page-title">
+            <h4>
+                <i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">
+                    Firma Tanımlama
+
+                </span>
+            </h4>
+            @*<div class="heading-elements">
+                    <div class="btn-group heading-btn">
+                        @using (Html.BeginForm("ExportData", "Home", FormMethod.Post, new { onsubmit = "validateForm()" }))
+                        {
+                            <button type="submit" class="btn bg-teal-400 btn-labeled legitRipple"><b><i class="icon-file-excel"></i></b>Excel'e Aktar</button>
+                        }
+                    </div>
+                </div>*@
+        </div>
+    </div>
+</div>
+
+
+<!-- /page header -->
+<div class="content">
+    <!-- Highlighting rows and columns -->
+    <div class="panel panel-flat">
+        <table class="table datatable-button-html5-columns" id="example">
+            <thead>
+            <tr>
+                <th>Sıra</th>
+                <th>Firma Numarası</th>
+                <th>Aktif Firma</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            @if (Model != null)
+            {
+                foreach (var item in Model.Firms)
+                {
+                    counter++;
+                    <tr>
+                        <td width="20">@counter</td>
+                        <td>@item.FirmNr</td>
+                        <td width="120">
+                            @(item.IsDefault == true ? "Evet" : "Hayır")
+
+
+                        </td>
+                        <td width="30" class="text-center">
+                            <ul class="icons-list">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                        <i class="icon-menu9"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="@Url.Action("EditFirm", "ManageFirm", new { id = @item.FirmId })" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal_large"><i class="icon-pencil"></i>Düzenle</a></li>
+                                        <li><a href="@Url.Action("DeleteFirm", "ManageFirm", new {id = @item.FirmId})" class="btn btn-default btn-sm" onclick="return confirm('Kaydı silmek istediğinize emin misiniz?')"><i class="icon-cross2"></i>Sil</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                }
+            }
+            </tbody>
+        </table>
+    </div>
+    <!-- /highlighting rows and columns -->
+
+</div>
+
+
+<!-- Vertical form modal -->
+<div id="modal_form_vertical" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h5 class="modal-title">Firmalar</h5>
+            </div>
+
+            @using (Html.BeginForm("AddFirm", "ManageFirm", FormMethod.Post, new { onsubmit = "validateForm()" }))
+            {
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label>Firma No</label>
+                                @Html.TextBoxFor(x => x.Firm.FirmNr, new { maxlength = "4", type = "number",placeholder = "Firma Numarası", @class = "form-control"})
+                            </div>
+                            <div class="col-sm-6">
+
+                                <label style="float: left;">Aktif Firma Mı?</label><br /><br />
+                                @*<input name="isActive"  type="checkbox" class="switchery">*@
+                                @Html.CheckBoxFor(x=>x.Firm.IsDefault,new {@class="switchery" })
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- /vertical form modal -->
+<!-- Large modal -->
+<div id="modal_large" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h5 class="modal-title">Firma Güncelle</h5>
+            </div>
+           @Html.Partial("EditFirm")
+            
+        </div>
+    </div>
+</div>
+<!-- /large modal -->

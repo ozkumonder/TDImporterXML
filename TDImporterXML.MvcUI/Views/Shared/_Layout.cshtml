@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tavuk Dünyası Satış Aktarım</title>
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/core.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/components.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/colors.css" rel="stylesheet" type="text/css">
+    @*<link href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />*@
+    <link href="~/Content/toastr.css" rel="stylesheet" />
+    <!-- /global stylesheets -->
+    <!-- Core JS files -->
+    @*<script type="text/javascript" src="~/Content/assets/js/plugins/loaders/pace.min.js"></script>*@
+    <script type="text/javascript" src="~/Content/assets/js/core/libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/core/libraries/bootstrap.min.js"></script>
+    @*<script type="text/javascript" src="~/Content/assets/js/plugins/loaders/blockui.min.js"></script>*@
+    <link href="~/Content/assets/css/components.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/colors.css" rel="stylesheet" type="text/css">
+    <!-- /core JS files -->
+    <!-- Theme JS files -->
+    <script type="text/javascript" src="~/Content/assets/js/plugins/tables/datatables/datatables.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/core/app.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/pages/datatables_basic.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/tables/datatables/extensions/buttons.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/pages/datatables_extension_buttons_html5.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/tables/datatables/extensions/jszip/jszip.min.js"></script>
+    <!-- /theme JS files -->
+    <script type="text/javascript" src="~/Content/assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/pages/form_multiselect.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/core/libraries/jquery_ui/interactions.min.js"></script>
+
+    <script type="text/javascript" src="~/Content/assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/pickers/daterangepicker.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/pickers/pickadate/picker.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/pages/picker_date.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/pages/form_select2.js"></script>
+    <script type="text/javascript" src="~/Scripts/toastr.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/pages/form_checkboxes_radios.js"></script>
+</head>
+<body>
+<!-- Main navbar -->
+<div class="navbar navbar-inverse">
+    <div class="navbar-header">
+        @*<a class="navbar-brand" href="index.html"><img src="~/Content/assets/images/logo.png" alt=""></a>*@
+        <ul class="nav navbar-nav visible-xs-block">
+            <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+            <li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+        </ul>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-mobile">
+
+        <div class="navbar-right">
+            <ul class="nav navbar-nav">
+                <li class="dropdown dropdown-user">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="~/Content/assets/images/demo/users/face11.png" alt="">
+                        <span>Tavuk Dünyası</span>
+                        <i class="caret"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        @*<li><a href="#"><i class="icon-user-plus"></i> My profile</a></li>
+                                <li><a href="#"><i class="icon-coins"></i> My balance</a></li>
+                                <li><a href="#"><span class="badge bg-blue pull-right">58</span> <i class="icon-comment-discussion"></i> Messages</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#"><i class="icon-cog5"></i> Account settings</a></li>*@
+                        <li><a href="@Url.Action("LogOut","ManageAccount")"><i class="icon-switch2"></i> Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- /main navbar -->
+<!-- Page container -->
+<div class="page-container">
+    <!-- Page content -->
+    <div class="page-content">
+        <!-- Main sidebar -->
+        <div class="sidebar sidebar-main sidebar-default">
+            <div class="sidebar-content">
+                <!-- User menu -->
+                <div class="sidebar-user-material">
+                    <div class="category-content">
+                        <div class="media">
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /user menu -->
+                <!-- Main navigation -->
+                <div class="sidebar-category sidebar-category-visible">
+                    <div class="category-content no-padding">
+                        <hr/ style="margin-top: 0px;margin-bottom: 0px">
+                        <ul class="navigation navigation-main navigation-accordion">
+                            <!-- Main -->
+                            <li class="navigation-header"><span>Menü</span> <i class="icon-menu" title="Main pages"></i></li>
+                            <li><a href="@Url.Action("Importer","ManageImporter")"><i class="icon-stack-plus"></i> <span>Aktarım</span></a></li>
+                            <li><a  href="@Url.Action("TransferredData","ManageTransferredData")"><i class="icon-stack-down"></i> <span>Aktarılan Satışlar</span></a></li>
+                            <li><a  href="@Url.Action("UnTransferredData","ManageUnTransferredData")"><i class="icon-stack-minus"></i> <span>Aktarılamayan Satışlar</span></a></li>
+                            <li>
+                                <a href="#"><i class="icon-cogs"></i> <span>Ayarlar</span></a>
+                                <ul>
+                                    <li><a href="@Url.Action("BranchPairing","ManageBranchPairing")"><i class="icon-git-compare"></i>Bayi Eşleştirme</a></li>
+                                    <li><a href="@Url.Action("DocumentTypes","ManageDocumentType")"><i class="icon-git-compare"></i>Belge Tipi Tanımlama</a></li>
+                                    <li><a href="@Url.Action("Firms","ManageFirm")"><i class="icon-git-compare"></i>Firma Tanımları</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- /main navigation -->
+            </div>
+        </div>
+        <!-- /main sidebar -->
+        <!-- Main content -->
+        <div class="content-wrapper">
+            @Html.Partial("_Notification")
+            @RenderBody()
+
+
+
+        </div>
+        <!-- /main content -->
+    </div>
+    <!-- /page content -->
+</div>
+<!-- /page container -->
+</body>
+</html>
+<script type="text/javascript">
+    @*function deleteInCart(id) {
+        $.ajax({
+            type: "post",
+            url: '@Url.Action("DeleteFirms", "ManageFirms")',
+            data: { id: id },
+            cache: false,
+            success: function (data) {
+                $("#sepetDiv").html(data);
+                GetCart();
+            },
+            error: function (err) {
+                alert(err);
+            }
+        });
+    }*@
+    //$(document).ready(function () {
+    //    debugger
+    //    var now = new Date();
+    //    var day = ("0" + now.getDate()).slice(-2);
+    //    var month = ("0" + (now.getMonth() + 1)).slice(-2);
+
+    //    var today = (day) + "." + (month) + "." + now.getFullYear();
+
+    //    $('#date').val(today);
+    //});
+    //$(document).ready(function() {
+    //    $('#example').DataTable({
+    //        dom: 'Bfrtip',
+    //        buttons: [
+    //            {
+    //                text: 'My button',
+    //                action: function(e, dt, node, config) {
+    //                    alert('Button activated');
+    //                }
+    //            }
+    //        ]
+    //    });
+    //});
+</script>

@@ -1,0 +1,12 @@
+DevExpress.Patch.InMemoryPatch, DevExpress.Patch.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7fc7bfca2443de66
+Telerik.WinControls.UI.RadStatusStrip, Telerik.WinControls.UI, Version=2017.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e
+DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+Telerik.WinControls.UI.RadApplicationMenu, Telerik.WinControls.UI, Version=2017.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e
+DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+Telerik.WinControls.RadThemeManager, Telerik.WinControls, Version=2017.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e
+Telerik.WinControls.UI.RadMenu, Telerik.WinControls.UI, Version=2017.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e
+DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+Telerik.WinControls.UI.RadRibbonBar, Telerik.WinControls.UI, Version=2017.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e
+Telerik.WinControls.UI.RadPanel, Telerik.WinControls.UI, Version=2017.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e
+Telerik.WinControls.Themes.TelerikMetroBlueTheme, Telerik.WinControls.Themes.TelerikMetroBlue, Version=2017.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e
+DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a

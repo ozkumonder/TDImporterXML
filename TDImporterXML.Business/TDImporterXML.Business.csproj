@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57F60768-F360-409E-9D3B-F1B57EE99A06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TDImporterXML.Business</RootNamespace>
+    <AssemblyName>TDImporterXML.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.3.1\lib\net40\Common.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.3.1\lib\net40\Common.Logging.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Quartz, Version=2.4.1.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quartz.2.4.1\lib\net40\Quartz.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebBackgrounder, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebBackgrounder.0.2.0\lib\net40\WebBackgrounder.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\IBaseService.cs" />
+    <Compile Include="Abstract\IBranchPairingService.cs" />
+    <Compile Include="Abstract\IDocumentTypeService.cs" />
+    <Compile Include="Abstract\IFirmsService.cs" />
+    <Compile Include="Abstract\ILogoService.cs" />
+    <Compile Include="Abstract\ITransferredDataService.cs" />
+    <Compile Include="Abstract\IUnTransferredDataService.cs" />
+    <Compile Include="Abstract\IUsersService.cs" />
+    <Compile Include="Concrete\BranchPairingService.cs" />
+    <Compile Include="Concrete\DocumentTypeService.cs" />
+    <Compile Include="Concrete\FirmsService.cs" />
+    <Compile Include="Concrete\LogoService.cs" />
+    <Compile Include="Concrete\TransferredDataService.cs" />
+    <Compile Include="Concrete\UnTransferredDataService.cs" />
+    <Compile Include="Concrete\UsersService.cs" />
+    <Compile Include="DependencyResolvers\Ninject\BusinessModule.cs" />
+    <Compile Include="DependencyResolvers\Ninject\NinjectJobFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scheduler\ImporterJob.cs" />
+    <Compile Include="Scheduler\JobScheduler.cs" />
+    <Compile Include="UnityObject\UnityApp.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TDImporterXML.Core\TDImporterXML.Core.csproj">
+      <Project>{2B508953-22C3-43C7-92DC-3A57A0CC2C40}</Project>
+      <Name>TDImporterXML.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TDImporterXML.DataLayer\TDImporterXML.DataLayer.csproj">
+      <Project>{8050FA22-B8D1-44A8-A783-78E519E484CC}</Project>
+      <Name>TDImporterXML.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TDImporterXML.Entities\TDImporterXML.Entities.csproj">
+      <Project>{E886E8CC-AEF7-44B5-B115-AEF1126EAE75}</Project>
+      <Name>TDImporterXML.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TDImporterXML.RobotPosService\TDImporterXML.RobotPosService.csproj">
+      <Project>{4238592A-0F4E-4770-8540-3DCAC8D723F7}</Project>
+      <Name>TDImporterXML.RobotPosService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="UnityObjects">
+      <Guid>{51F6657D-9972-45FD-8D5D-98849802A9C9}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

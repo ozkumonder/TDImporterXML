@@ -1,0 +1,19 @@
+22.09.2017 10:53:52 CREATE NEW INSTANCE UNITYAPPLICATION
+22.09.2017 10:53:56 LOBJECT LOGIN BAŞARILI
+22.09.2017 10:53:57 13.09.2017 3403için gelen Perakende Satış Fatura kaydı logoya aktarılmaya çalışılıyor
+22.09.2017 11:05:44 CREATE NEW INSTANCE UNITYAPPLICATION
+22.09.2017 11:05:56 LOBJECT LOGIN BAŞARILI
+22.09.2017 11:07:02 13.09.2017 3403için gelen Perakende Satış Fatura kaydı logoya aktarılmaya çalışılıyor
+22.09.2017 11:12:10 CREATE NEW INSTANCE UNITYAPPLICATION
+22.09.2017 11:12:25 LOBJECT LOGIN BAŞARILI
+22.09.2017 11:12:26 13.09.2017 3403için gelen Perakende Satış Fatura kaydı logoya aktarılmaya çalışılıyor
+22.09.2017 12:11:34 CREATE NEW INSTANCE UNITYAPPLICATION
+22.09.2017 12:11:37 LOBJECT LOGIN BAŞARILI
+22.09.2017 12:11:38 13.09.2017 3403için gelen Perakende Satış Fatura kaydı logoya aktarılmaya çalışılıyor
+22.09.2017 12:13:07 CREATE NEW INSTANCE UNITYAPPLICATION
+22.09.2017 12:13:10 LOBJECT LOGIN BAŞARILI
+22.09.2017 12:13:10 13.09.2017 3403için gelen Perakende Satış Fatura kaydı logoya aktarılmaya çalışılıyor
+22.09.2017 14:45:41 CREATE NEW INSTANCE UNITYAPPLICATION
+22.09.2017 14:45:45 LOBJECT LOGIN BAŞARILI
+22.09.2017 14:45:45 13.09.2017 3401için gelen Perakende Satış Fatura kaydı logoya aktarılmaya çalışılıyor
+22.09.2017 14:45:52 71619 Referanslı Gelen Perakende Satış Fatura Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.

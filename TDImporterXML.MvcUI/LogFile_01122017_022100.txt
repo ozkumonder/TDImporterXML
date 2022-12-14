@@ -1,0 +1,62 @@
+11.07.2017 23:29:21 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19262 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:31:44 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:31:59 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:32:03 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:32:07 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 258 | Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:32:08 | <Bellek Modülünde> | CallSite.Target |  | 0 | 6743 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:32:09 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:32:13 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 121 |  : 109 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:32:13 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:32:16 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 470 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:32:16 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19263 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:32:17 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:32:20 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 470 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:32:20 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19264 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:32:21 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:32:24 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 470 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:32:25 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19265 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:32:25 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 121 |  : 113 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:32:25 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:32:28 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 363 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:32:34 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19266 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:32:35 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 121 |  : 115 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:46:36 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:46:46 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:46:49 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 153 | Gelen SALES_INVOICES Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:46:57 | <Bellek Modülünde> | CallSite.Target |  | 0 | 48240 Referanslı Gelen SALES_INVOICES Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:46:58 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:47:01 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 258 | Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:02 | <Bellek Modülünde> | CallSite.Target |  | 0 | 6744 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:02 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:47:06 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 363 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:06 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19267 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:07 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 121 |  : 109 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:47:07 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:47:10 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 470 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:10 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19268 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:11 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:47:14 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 470 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:15 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19269 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:15 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:47:18 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 470 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:19 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19270 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:19 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 121 |  : 113 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:47:19 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Start Execute Method
+11.07.2017 23:47:23 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 363 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:23 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19271 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:23 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 121 |  : 115 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+13.07.2017 16:17:20 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Logoya Aktarılamaya Çalışılıyor
+13.07.2017 16:19:24 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Logoya Aktarılamaya Çalışılıyor
+13.07.2017 16:22:44 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 53 | Logoya Aktarılamaya Çalışılıyor
+14.07.2017 00:44:06 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 51 | execute başladı
+14.07.2017 00:45:04 | TDImporterXML.Business.dll | ImportXmlStr | TDImporterXML.Business.Concrete.LogoService | 56 | Logoya Aktarılamaya Çalışılıyor
+20.07.2017 17:03:48 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 51 | execute başladı
+20.07.2017 17:04:40 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 108 |  : TDImporterXML.Entities.MBI_DocumentType : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+21.07.2017 12:48:11 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 51 | execute başladı
+21.07.2017 12:59:03 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 51 | execute başladı
+21.07.2017 12:59:38 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 108 |  : TDImporterXML.Entities.MBI_DocumentType : HATA: errorKayıt Logoya Aktarılamadı.
+01.12.2017 17:15:24 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 123 |  : 304 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+01.12.2017 17:16:06 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 123 |  : 304 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+01.12.2017 17:16:55 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 123 |  : 304 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+01.12.2017 17:20:50 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 123 |  : 304 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+01.12.2017 17:20:56 | TDImporterXML.MvcUI.dll | Importer | TDImporterXML.MvcUI.Controllers.ManageImporterController | 123 |  : 304 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.

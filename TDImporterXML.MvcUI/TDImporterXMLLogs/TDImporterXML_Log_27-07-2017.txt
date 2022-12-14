@@ -1,0 +1,4 @@
+27.07.2017 11:06:24 CREATE NEW INSTANCE UNITYAPPLICATION
+27.07.2017 11:06:35 LOBJECT LOGIN BAŞARILI
+27.07.2017 11:06:36 01.07.2017 3403için gelen Nakit Kasa Hareketleri kaydı logoya aktarılmaya çalışılıyor
+27.07.2017 11:06:43 6821 Referanslı Gelen Nakit Kasa Hareketleri Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.

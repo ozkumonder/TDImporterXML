@@ -1,0 +1,35 @@
+﻿@model TDImporterXML.MvcUI.ViewModel.FirmsViewModel
+
+
+
+@using (Html.BeginForm("EditFirm", "ManageFirm", FormMethod.Post, new { onsubmit = "validateForm()" }))
+{
+
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Firm.FirmId)
+    <div class="modal-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-6">
+                    <label>Firma No</label>
+                    @Html.TextBoxFor(x => x.Firm.FirmNr, new { maxlength = "4", type = "number", placeholder = "Firma Numarası", @class = "form-control" })
+                </div>
+                <div class="col-sm-6">
+
+                    <label style="float: left;">Aktif Firma Mı?</label><br /><br />
+                    @*<input name="isActive"  type="checkbox" class="switchery">*@
+                    @Html.CheckBoxFor(x => x.Firm.IsDefault, new { @class = "switchery" }) 
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-link" data-dismiss="modal">Kapat</button>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+
+
+}

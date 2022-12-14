@@ -1,0 +1,51 @@
+﻿10.07.2017 14:39:07 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 53 | Start Execute Method
+10.07.2017 14:40:28 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM301 301HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:40:37 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM304 304HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:40:37 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM106 106HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:40:38 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM107 107HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:40:38 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM109 109HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:40:38 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM110 110HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:40:38 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM111 111HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:40:39 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM112 112HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:40:39 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM113 113HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:40:39 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM114 114HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:40:39 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.10.2017 14:39:073404 YAYLADA SUREYYAPASA AVM115 115HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:41:34 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 53 | Start Execute Method
+10.07.2017 14:43:04 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 53 | Start Execute Method
+10.07.2017 14:44:47 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003404 YAYLADA SUREYYAPASA AVM301 301HATA: error : process error- Transaction (Process ID 66) was deadlocked on lock | communication buffer resources with another process and has been chosen as the deadlock victim. Rerun the transaction.Kayıt Logoya Aktarılamadı.
+10.07.2017 14:48:59 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 53 | Start Execute Method
+10.07.2017 14:52:08 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 247 | Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+10.07.2017 14:52:52 | <Bellek Modülünde> | CallSite.Target |  | 0 | 6764 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+10.07.2017 14:54:02 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 341 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+10.07.2017 14:54:23 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19274 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+10.07.2017 14:55:30 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003404 YAYLADA SUREYYAPASA AVM109 109HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:56:07 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 428 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+10.07.2017 14:56:18 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19275 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+10.07.2017 14:57:14 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003404 YAYLADA SUREYYAPASA AVM111 111HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:57:41 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003404 YAYLADA SUREYYAPASA AVM112 112HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:57:49 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003404 YAYLADA SUREYYAPASA AVM113 113HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 14:58:56 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 341 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+10.07.2017 14:59:00 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19276 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+10.07.2017 14:59:25 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003404 YAYLADA SUREYYAPASA AVM115 115HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 15:00:11 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 155 | Gelen SALES_INVOICES Logoya Aktarılmaya Çalışılıyor
+10.07.2017 15:00:14 | <Bellek Modülünde> | CallSite.Target |  | 0 | 48255 Referanslı Gelen SALES_INVOICES Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+10.07.2017 15:00:14 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 247 | Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+10.07.2017 15:00:15 | <Bellek Modülünde> | CallSite.Target |  | 0 | 6765 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+10.07.2017 15:00:15 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 341 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+10.07.2017 15:00:16 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19277 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+10.07.2017 15:00:16 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003401 TEPE NAUTILUS AVM109 109HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 15:00:16 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003401 TEPE NAUTILUS AVM110 110HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 15:00:16 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003401 TEPE NAUTILUS AVM111 111HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 15:00:17 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003401 TEPE NAUTILUS AVM112 112HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 15:00:17 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003401 TEPE NAUTILUS AVM113 113HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 15:00:17 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 341 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+10.07.2017 15:00:17 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19278 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+10.07.2017 15:00:18 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:003401 TEPE NAUTILUS AVM115 115HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 15:05:46 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 247 | Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+10.07.2017 15:05:47 | <Bellek Modülünde> | CallSite.Target |  | 0 | 6767 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+10.07.2017 15:05:47 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 341 | Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+10.07.2017 15:05:47 | <Bellek Modülünde> | CallSite.Target |  | 0 | 19279 Referanslı Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+10.07.2017 15:05:47 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:00601 ANKARA OPTIMUM AVM109 109HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 15:05:48 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:00601 ANKARA OPTIMUM AVM110 110HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 15:05:48 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:00601 ANKARA OPTIMUM AVM111 111HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+10.07.2017 15:05:48 | TDImporterXML.Business.dll | Execute | TDImporterXML.Business.Scheduler.ImporterJob | 516 | 07.09.2017 00:00:00601 ANKARA OPTIMUM AVM112 112HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.

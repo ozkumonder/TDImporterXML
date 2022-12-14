@@ -1,0 +1,7 @@
+﻿@using TDImporterXML.MvcUI.Notification
+
+@if (TempData.ContainsKey("Toastr"))
+{
+    Toastr toastr = TempData["Toastr"] as Toastr;
+    @ToastrBuilder.ShowToastMessage(toastr);
+}

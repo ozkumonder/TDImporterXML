@@ -1,0 +1,26 @@
+﻿@model TDImporterXML.MvcUI.ViewModel.BranchPairingViewModel
+@using (Html.BeginForm("EditBranchPairing", "ManageBranchPairing", FormMethod.Post, new { onsubmit = "validateForm()" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.BrachPairing.BranchPairingId)
+    <div class="modal-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-6">
+                    <label>Belge Tipi Kodu</label>
+                    @Html.TextBoxFor(x => x.BrachPairing.LogoBranchNr, new { maxlength = "4", type = "number", placeholder = "Belge Logo Şube Kodu", @class = "form-control" })
+                </div>
+                <div class="col-sm-6">
+                    <label style="float: left;">Belge Tipi Açıklama</label>
+                    @Html.TextBoxFor(x => x.BrachPairing.RobotposBranchNr, new { type = "number", placeholder = "Robotpos Şube Kodu", @class = "form-control" })
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-link" data-dismiss="modal">Kapat</button>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+}
+

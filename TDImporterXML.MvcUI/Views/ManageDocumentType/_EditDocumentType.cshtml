@@ -1,0 +1,32 @@
+﻿@model TDImporterXML.MvcUI.ViewModel.DocumentTypeViewModel
+
+
+
+@using (Html.BeginForm("EditDocumentType", "ManageDocumentType", FormMethod.Post, new { onsubmit = "validateForm()" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.DocumentType.DocumentTypeId)
+    <div class="modal-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-6">
+                    <label>Belge Tipi Kodu</label>
+                    @Html.TextBoxFor(x => x.DocumentType.DataTypeId, new { maxlength = "4", type = "number", placeholder = "Belge Tipi Kodu", @class = "form-control" })
+                </div>
+                <div class="col-sm-6">
+                    <label style="float: left;">Belge Tipi Açıklama</label>
+                    @Html.TextBoxFor(x => x.DocumentType.DataTypeName, new { type = "text", placeholder = "Belge Tipi Açıklaması", @class = "form-control" })
+                    @*<input name="isActive"  type="checkbox" class="switchery">*@
+                    @*@Html.CheckBoxFor(x=>x.Firm.IsDefault,new {@class="switchery" })*@
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-link" data-dismiss="modal">Kapat</button>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+}

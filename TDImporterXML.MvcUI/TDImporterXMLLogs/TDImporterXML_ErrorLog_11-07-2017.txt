@@ -1,0 +1,9 @@
+11.07.2017 14:35:46 -5:Geçersiz şifre.
+11.07.2017 14:40:34 -5:Geçersiz şifre.
+11.07.2017 23:25:36  : 109 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:32:13  : 109 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:32:25  : 113 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:32:35  : 115 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:47:07  : 109 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:47:19  : 113 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.
+11.07.2017 23:47:23  : 115 : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.

@@ -1,0 +1,34 @@
+11.07.2017 14:41:25 Gelen SALES_INVOICES Logoya Aktarılmaya Çalışılıyor
+11.07.2017 14:41:46 48239 Referanslı Gelen SALES_INVOICES Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 16:21:48 Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 16:21:49 6742 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 16:24:48 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 16:24:53 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:28:45 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:28:51 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:29:20 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:29:21 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:32:07 Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:32:08 6743 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:32:16 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:32:16 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:32:20 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:32:20 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:32:24 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:32:25 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:32:28 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:32:34 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:46:49 Gelen SALES_INVOICES Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:46:57 48240 Referanslı Gelen SALES_INVOICES Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:01 Gelen SD_TRANSACTIONS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:02 6744 Referanslı Gelen SD_TRANSACTIONS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:06 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:06 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:10 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:10 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:14 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:15 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:18 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:19 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+11.07.2017 23:47:23 Gelen ARP_VOUCHERS Logoya Aktarılmaya Çalışılıyor
+11.07.2017 23:47:23 Gelen ARP_VOUCHERS Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.

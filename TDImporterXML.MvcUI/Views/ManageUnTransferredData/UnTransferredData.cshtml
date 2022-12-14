@@ -1,0 +1,140 @@
+﻿@using PagedList;
+@using PagedList.Mvc
+@model IPagedList<TDImporterXML.Entities.MBI_UnTransferredData>
+@{
+    ViewBag.Title = "Importer";
+    int counter = 0;
+}
+<div class="page-header page-header-default">
+    <div class="page-header-content">
+        <div class="page-title">
+            <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Aktarılmayan Fişler</span></h4>
+            @*<div class="heading-elements">
+                    <div class="btn-group heading-btn">
+                        @using (Html.BeginForm("ExportData", "Home", FormMethod.Post, new { onsubmit = "validateForm()" }))
+                        {
+                            <button type="submit" class="btn bg-teal-400 btn-labeled legitRipple"><b><i class="icon-file-excel"></i></b>Excel'e Aktar</button>
+                        }
+                    </div>
+                </div>*@
+        </div>
+    </div>
+</div>
+<!-- /page header -->
+
+<div class="content">
+
+    
+
+
+
+
+
+    <!-- Highlighting rows and columns -->
+    <div class="panel panel-flat">
+
+        <table class="table datatable-button-html5-columns-untransfer" id="list">
+            <thead>
+            <tr>
+                <th>Sıra</th>
+                <th>Şube</th>
+                <th>Belge Tipi</th>
+                <th>Tarih</th>
+                <th>Hata</th>
+                @*<th>Action</th>*@
+            </tr>
+            </thead>
+            <tbody>
+
+
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    counter++;
+                    <tr>
+                        <td width="20">@counter</td>
+                        <td>@item.UnTransBranchNumber</td>
+                        <td>@string.Format("{0}, {1}", item.DataTypeId, item.DataTypeName)</td>
+                        <td>@item.UnTransDate</td>
+                        <td>@item.UnTransError</td>
+                        @*<td width="30" class="text-center">
+                            <ul class="icons-list">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                        <i class="icon-menu9"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="@Url.Action("DeleteTransferredData", "ManageTransferredData", new {id = @item.UnTransDataId})" class="btn btn-default btn-sm" onclick="return confirm('Kaydı silmek istediğinize emin misiniz?')"><i class="icon-cross2"></i>Sil</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>*@
+
+                    </tr>
+                }}
+
+
+
+
+            </tbody>
+        </table>
+        <div class="paginations">
+            <ul class="page_nav">
+                @Html.PagedListPager(Model, page => Url.Action("UnTransferredData", new { page }), new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded, DisplayPageCountAndCurrentLocation = true })
+            </ul>
+        </div>
+        <br />
+    </div>
+    <!-- /highlighting rows and columns -->
+
+</div>
+<script type="text/javascript">
+    $("#Getir").click(function () {
+        //var sube = $("#Sube").val();
+        var date = $("#date").val();
+        @*if (sube != null && date != null) {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("Index")',
+
+                success: function (result) {
+                    debugger
+                    var path = "/Index";
+                    var dt = $('#list').DataTable();
+                    dt.clear();
+                    dt.draw();
+                    dt.ajax.url(path).load();
+
+                },
+                error: function () { alert("error"); }
+            });
+
+
+        }*@
+
+        if (date != "") {
+            $('#divLoading').show();
+        }
+    });
+    $("#Uret").click(function () {
+        $('#divLoadingProduction').show();
+
+    });
+
+</script>
+
+<div id="divLoading" style="margin: auto; padding: 0px; position: fixed; right: 0px;
+                                      top: 0px; width: 100%; height: 100%; background-color: #666666; z-index: 30001;
+                                      opacity: .8; filter: alpha(opacity=70); display: none">
+    <p style="position: absolute; top: 50%; left: 35%; color: White;">
+        Veriler getiriliyor, lütfen beyleyiniz...<img src="~/Content/assets/images/gears.gif">
+    </p>
+</div>
+<div id="divLoadingProduction" style="margin: auto; padding: 0px; position: fixed; right: 0px;
+                                                                                                                                                                                                                                                                                                                                                                      top: 0px; width: 100%; height: 100%; background-color: #666666; z-index: 30001;
+                                                                                                                                                                                                                                                                                                                                                                      opacity: .8; filter: alpha(opacity=70);display:none">
+    <p style="position: absolute; top: 50%; left:35%; color: White;">
+        Üretimler oluşturuluyor, lütfen beyleyiniz...<img src="~/Content/assets/images/gears.gif">
+    </p>
+</div>

@@ -1,0 +1,1 @@
+20.07.2017 17:04:41  : TDImporterXML.Entities.MBI_DocumentType : HATA: error : tabloda veri yokKayıt Logoya Aktarılamadı.

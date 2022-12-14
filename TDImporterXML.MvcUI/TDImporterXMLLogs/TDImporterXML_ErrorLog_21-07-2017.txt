@@ -1,0 +1,2 @@
+21.07.2017 12:59:39  : TDImporterXML.Entities.MBI_DocumentType : HATA: errorKayıt Logoya Aktarılamadı.
+21.07.2017 12:59:59  : TDImporterXML.Entities.MBI_DocumentType : HATA: errorKayıt Logoya Aktarılamadı.

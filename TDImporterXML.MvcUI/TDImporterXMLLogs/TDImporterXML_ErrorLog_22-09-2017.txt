@@ -1,0 +1,5 @@
+22.09.2017 11:00:36 Out of memory
+22.09.2017 12:12:05 13.09.2017 3403için gelen Perakende Satış Fatura kaydı logoya aktarılamadı. Aktarılamayan kayıtlara işlendi.
+22.09.2017 12:12:15 Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+22.09.2017 12:15:28 13.09.2017 3403için gelen Perakende Satış Fatura kaydı logoya aktarılamadı. Aktarılamayan kayıtlara işlendi.
+22.09.2017 12:15:57 Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.

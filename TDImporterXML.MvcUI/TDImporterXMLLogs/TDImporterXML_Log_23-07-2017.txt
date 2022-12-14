@@ -1,0 +1,5 @@
+23.07.2017 15:22:59 LOBJECT LOGIN BAŞARILI
+23.07.2017 15:23:00 Gelen SALES_INVOICES Logoya Aktarılmaya Çalışılıyor
+23.07.2017 15:23:21 48283 Referanslı Gelen SALES_INVOICES Logoya Aktarıldı. Aktarılan Kayıtlara İşlendi.
+23.07.2017 21:12:11 JobScheduler Başlatıldı
+23.07.2017 21:35:15 JobScheduler Başlatıldı
